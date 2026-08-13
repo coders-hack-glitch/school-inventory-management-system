@@ -14,7 +14,7 @@ class about:
         Label(intro,text='A desktop application designed to streamline product, stock and sales management for a school or small business.',font=('Segoe UI',10),bg='white',fg=COLORS['muted'],wraplength=850,justify='left').place(x=25,y=62)
         Label(intro,text='Built with Python • Tkinter • MySQL',font=('Segoe UI',10,'bold'),bg='white',fg=COLORS['blue_dark']).place(x=25,y=105)
         Label(body,text='Project Team',font=('Segoe UI',17,'bold'),bg=COLORS['bg'],fg=COLORS['text']).place(x=40,y=205)
-        names=[('Keshav Agrawal','Student Developer'),('Shreshth Gaur','Student Developer'),('Shivayansh Garg','Student Developer')]
+        names=[('Shivayansh Garg','Student Developer')]
         x=40
         for name,role in names:
             c=card(body,285,160); c.place(x=x,y=245)
